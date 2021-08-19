@@ -9,7 +9,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-    app.kubernetes.io/name: acm-app-spring-petclinic
+      app.kubernetes.io/name: acm-app-spring-petclinic
   template:
     metadata:
       labels:
