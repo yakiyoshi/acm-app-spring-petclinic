@@ -2,8 +2,6 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  annotations:
-    kubernetes.io/ingress.class: nginx
   name: acm-app-spring-petclinic
   labels:
     app.kubernetes.io/name: acm-app-spring-petclinic
