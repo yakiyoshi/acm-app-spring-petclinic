@@ -18,7 +18,7 @@ spec:
       containers:
         - name: spring-petclinic
           image: "quay.io/yakiyoshi/spring-petclinic:2.4.5-hostname"
-          imagePullPolicy: Always
+          imagePullPolicy: IfNotPresent
           ports:
             - name: http
               containerPort: 8080
