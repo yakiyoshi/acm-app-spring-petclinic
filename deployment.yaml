@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: spring-petclinic
-          image: "quay.io/yakiyoshi/spring-petclinic:2.4.5"
+          image: "quay.io/yakiyoshi/spring-petclinic:2.4.5-hostname"
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
