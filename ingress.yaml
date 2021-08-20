@@ -9,7 +9,7 @@ metadata:
     app.kubernetes.io/name: acm-app-spring-petclinic
 spec:
   rules:
-  - host: acm-app-spring-petclinic.apps.hpetaocp.tk
+  - host: acm-app-spring-petclinic.apps.hpetaacm.tk
     http:
       paths:
       - path: /
